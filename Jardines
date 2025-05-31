@@ -3,37 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Jardines - Productora de eventos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
-      background: url('imagen.png') no-repeat center top;
+      font-family: Arial, sans-serif;
+      background: url('fondo.png') no-repeat center top;
       background-size: cover;
       height: 100vh;
     }
+
     .formulario {
       position: absolute;
-      top: 80px; /* ajusta según tu imagen */
-      right: 50px; /* ajusta según tu imagen */
-      background-color: rgba(255,255,255,0.6);
+      top: 100px; /* Ajusta esta posición según tu diseño */
+      right: 50px; /* Ajusta también esto */
+      width: 300px;
+      background-color: rgba(255, 255, 255, 0.6);
       padding: 20px;
       border-radius: 10px;
-      width: 300px;
     }
-    .formulario input, .formulario textarea {
-      width: 100%;
-      margin: 5px 0;
-      padding: 8px;
-      border: none;
-      border-radius: 5px;
-    }
+
+    .formulario input,
+    .formulario textarea,
     .formulario button {
       width: 100%;
+      margin: 5px 0;
       padding: 10px;
-      background-color: #497254;
-      color: white;
       border: none;
       border-radius: 5px;
+    }
+
+    .formulario button {
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
     }
   </style>
 </head>
